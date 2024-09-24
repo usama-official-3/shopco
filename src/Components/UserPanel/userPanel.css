@@ -1,0 +1,16 @@
+.panel_index {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    padding: 2px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b2950;
+    color: white;
+    top: 5px;
+    right: 5px;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 100%;
+}

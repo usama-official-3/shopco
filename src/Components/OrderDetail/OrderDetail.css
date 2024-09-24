@@ -1,0 +1,30 @@
+.btn_width {
+  width: fit-content;
+}
+
+.update {
+  width: 300px;
+}
+.order_btns{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.order_btns a{
+  width: fit-content;
+}
+.font p, .font b{
+  font-size:20px;
+  font-family: 'Times New Roman', Times, serif !important;
+}
+@media screen and (max-width:768px) {
+  .table_display1 {
+    display: none !important;
+  }
+  
+  .btn_width, .update, .order_btns a {
+    width: 100%;
+  }
+}

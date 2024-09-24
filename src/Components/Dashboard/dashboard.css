@@ -1,0 +1,67 @@
+.admin_card {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+    height: 100px;
+}
+
+.admin_card:hover {
+    cursor: pointer;
+    /* color: white; */
+    /* background-color: #02025E; */
+    /* border: 1px solid var(--border-color); */
+}
+
+.admin_card_number,
+.card_icon {
+    font-size: 20px;
+    color: #02025E;
+    font-weight: 600;
+}
+
+.admin_card_title {
+    font-size: 20px;
+    color: #02025E;
+    font-weight: 600;
+}
+
+.admin_card:hover p,
+.admin_card:hover .card_icon {
+    /* color: white; */
+}
+.search-div {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.logout {
+    font-size: 25px;
+}
+
+.logout:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.search-div input {
+    border-radius: 8px;
+    width: 250px;
+    padding: 0rem 1.5rem;
+    border: 1px solid rgb(224, 223, 223);
+    outline: none;
+}
+
+.search-div input:focus {
+    outline: none;
+
+}
+
+.search-icon {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    color: rgb(82, 82, 82);
+}

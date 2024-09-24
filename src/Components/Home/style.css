@@ -1,0 +1,34 @@
+.style {
+    background-color: #F0EEED;
+    min-height: 500px;
+    border-radius: 30px;
+}
+
+.style_card {
+    background-color: white;
+    position: relative;
+    height: 250px;
+    border-radius: 15px;
+
+}
+
+.style_card:hover {
+    cursor: pointer;
+}
+
+.style_card:hover img {
+    transform: scale(1.02);
+    transition: all linear 0.5s;
+}
+
+.style_card img {
+    width: 100%;
+    border-radius: 15px;
+    height: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .style_card {
+        height: 200px !important;
+    }
+}

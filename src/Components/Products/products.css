@@ -1,0 +1,45 @@
+
+.size_box {
+    width: fit-content;
+    padding: 15px 20px;
+    border-radius: 40px;
+    background-color: #F0EEED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.size_box:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: all linear 0.2s;
+}
+.size_box:active{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.p_img{
+    height: 270px !important;
+    border-radius: 20px ;
+    box-shadow: 10px 10ox 10px #F2F0F1;
+    background-color: #F2F0F1;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p_img img{
+    height: 100% ;
+}
+.p_card:hover .p_img img {
+    cursor: pointer;
+    transform: scale(1.09);
+    transition: all linear 1s;
+}
+
+.p_card:hover {
+    cursor: pointer;
+}

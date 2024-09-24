@@ -1,0 +1,43 @@
+
+.block_main:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all ease-in-out 0.3s;
+}
+
+.block_main:hover .read {
+    font-weight: 700;
+    color: rgb(2, 2, 94) !important;
+}
+
+.blog3 {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* .blog1 {
+    border-radius: 10% 30% 30%;
+}
+
+.blog2 {
+    border-radius: 50% 50% 0px 0px;
+} */
+
+.blog3 {
+    border-radius: 30% 30% 10%;
+}
+
+/* .blog4 {
+    border-radius: 0px 0px 50% 50%;
+} */
+
+.blog1 img,
+.blog2 img,
+.blog3 img,
+.blog4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

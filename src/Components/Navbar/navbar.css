@@ -1,0 +1,46 @@
+.navbar_Search input{
+    width: 100%;
+    border-radius: 40px;
+    background-color: #F0F0F0;
+    outline: none !important;
+    border: none !important;
+    padding: 0px 40px;
+    position: relative;
+}
+.nav-link{
+    color: black !important;
+}
+.navbar_Search input:focus{
+    outline: none !important;
+    border: none !important;
+    background-color: #F0F0F0;
+}
+.search_icon{
+    font-size: 25px;
+    position: absolute;
+    left: 5px;
+    color: black;
+}
+.navbar-toggler{
+    border: none;
+
+}
+.navbar-toggler:focus{
+    border: none;
+    outline: none;
+}
+.login{
+    background-color: black !important;
+    color: white !important; 
+    outline: none !important;
+    border: none !important;
+}
+.nav-link{
+    text-decoration: none !important;
+}
+
+@media screen and (max-width:990px) {
+    .nav_display{
+        display:  none !important;
+    }
+}

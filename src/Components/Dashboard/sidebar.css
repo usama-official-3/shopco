@@ -1,0 +1,59 @@
+.dashboard {
+    width: 100%;
+    /* padding: 0px 0.5rem; */
+}
+
+.sidebar {
+    height: auto;
+    position: relative;
+    background-color: rgb(2, 2, 94);
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.bars {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+    /* background-color: #2b2c6c; */
+    border-radius: 100%;
+    font-size: 35px;
+}
+
+.bars:hover {
+    cursor: pointer;
+}
+
+.link {
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+
+.link:hover {
+    border-bottom: 1px solid #2b2c6c;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.sidebar .active {
+    border-bottom: 1px solid #2b2c6c;
+}
+
+.icon,
+.link_text {
+    font-size: 20px;
+}
+
+.extra {
+    color: rgb(156, 155, 155);
+    border-bottom: 1px solid white;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+}

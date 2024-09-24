@@ -1,0 +1,34 @@
+.error_container{
+    /* background-image: url('./3793096.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.error_container h1{
+    font-weight: 800;
+    color: black;
+    font-size: 5rem;
+}
+.error_container h2{
+    font-weight: 700;
+    color: black;
+    font-size: 4rem;
+}
+.error_container p{
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    /* font-size: 2.5rem; */
+}
+.error_btn{
+    width: fit-content;
+    padding: 0.3rem 2rem;
+    background-color:   #6254F3;
+    color: white;
+    border: none;
+    font-size: large;
+}
+.error_btn:hover{
+    transform: scale(1.05);
+}

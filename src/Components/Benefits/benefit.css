@@ -1,0 +1,50 @@
+.benefit_main_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.benefit_box {
+    /* border: 1px solid red; */
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    gap: 10px;
+}
+.benefit_box:hover{
+    cursor: pointer;
+    transform: scale(1.07);
+}
+
+.Benefit_cards {
+    padding: 0px 80px;
+}
+.benefit_icon{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 100%;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width:992px) {
+    .Benefit_main {
+        padding: 0px 15px;
+    }
+
+    .Benefit_cards {
+        padding: 0px 20px;
+    }
+
+    .benefit_main_box {
+        justify-content: center;
+    }
+}

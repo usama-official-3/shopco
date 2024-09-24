@@ -1,0 +1,87 @@
+.r_btn {
+    display: block;
+}
+
+.r_btn:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: all linear 0.3s;
+}
+
+.review_btn {
+    width: fit-content;
+    height: fit-content;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(2, 2, 94, 0.9);
+    padding: 10px 10px !important;
+    border: none;
+    outline: none;
+}
+
+.review_btn:hover {
+    font-weight: 600;
+    color: white;
+    background-color: rgb(2, 2, 94);
+    transition: all linear 0.1s;
+}
+
+.review_img {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.review_detail {
+    color: white;
+}
+
+.review_detail::-webkit-scrollbar {
+    width: 5px;
+    max-height: 10px !important;
+}
+
+
+.input-group {
+    position: relative;
+}
+
+.input {
+    border: solid 1.5px #9e9e9e;
+    border-radius: 0.5rem;
+    padding: 15px 20px;
+    background: none;
+    font-size: 1rem;
+    color: #f5f5f5;
+    transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.user-label {
+    position: absolute;
+    left: 15px;
+    color: #212121;
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input:focus,
+input:valid {
+    color: rgb(2, 2, 94);
+    outline: none;
+    border: 1.5px solid rgb(2, 2, 94);
+}
+textarea, input{
+    color: rgb(2, 2, 94) !important;
+}
+.input:focus~label,
+input:valid~label,textarea:valid~label,textarea:focus~label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: white;
+    padding: 0 .2em;
+    color: rgb(2, 2, 94) !important;
+    font-weight: 500;
+}
+@media screen and (max-width:768px) {
+    .review_btn{
+        width: 100% !important;
+    }
+}
